@@ -10,7 +10,19 @@ body {
 }
 
 @layer utilities {
+  /*
+    @layer is used to add custom css in tailwindcss
+    tailwindcss has three main layers where styles can be defined.
+    1. base, 2. components, 3. utilities
+  */
+
   @keyframes blink {
+    /* 
+      @keyframes is used to create an amination.
+      @keyframes animationName{
+        body
+      }
+    */
     0%,
     100% {
       opacity: 1;
